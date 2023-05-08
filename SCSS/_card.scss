@@ -1,0 +1,94 @@
+.container{
+    text-align: center;
+    padding-top: 5rem;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.2em;
+    grid-template-columns: no-repeat (5,1fr);
+    .content{
+        opacity: 0.9;
+        grid-column: span 3;
+        .card{
+            margin-bottom: 2em;
+            overflow: hidden;
+            transform: all 500ms ease;
+            border-radius: 5px;
+            box-shadow: none;
+            align-items: center;
+            background-color: rgba(206, 97, 97, 0);
+            color: rgb(0, 0, 0);
+            .card-body{
+                background-color: rgba(106, 98, 98, 0.524);
+
+                .card-title{
+                    font-size: 30px;
+                }
+                .card-text{
+                    font-size: 25px;
+                } 
+                .article{
+                    padding: 20px;
+                    margin-top: 10px;
+                    color: #ffffff;
+                }
+
+            }
+        }
+    }
+    .sidebar{
+        grid-column: span 2;
+        color: rgb(8, 8, 8);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .content{
+            .card{
+                .card-body{
+                    div{
+                        img{
+                           margin:1px;
+                           width:  100%;
+                        }
+                        p{
+                            margin: 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    $colorrojo: rgb(218, 44, 38);
+    $colorrosa: rgb(243, 129, 125);
+    .row{
+        opacity: 0.91;
+
+        .col {
+            padding: 15px;
+            transition: all 1.2s ease;
+            
+            &:hover {
+                background-color: $colorrosa;           
+            }      
+            .card {
+                border: $colorrojo solid 3px; 
+                img{
+                    max-width: 100%;
+                    width: 50%; 
+                }
+                .lista {
+                    text-decoration: none;
+                    list-style: none;
+                    text-align: center;    
+                }
+        
+            }   
+        }       
+    }
+
+
+
+}

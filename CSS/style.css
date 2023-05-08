@@ -1,0 +1,198 @@
+
+.header .navbar .container-fluid .collapse ul li a:hover {
+  background-color: #dd5a5a;
+  border-radius: 10px;
+}
+
+.header .navbar .container-fluid .collapse ul li a:active {
+  background-color: #da2c2c;
+}
+
+.row {
+  opacity: 0.91;
+}
+
+.row .col {
+  padding: 15px;
+  -webkit-transition: all 1.2s ease;
+  transition: all 1.2s ease;
+}
+
+.row .col:hover {
+  background-color: #a09d9d;
+}
+
+.row .col .card {
+  margin-bottom: 2em;
+  overflow: hidden;
+  -webkit-transform: all 500ms ease;
+          transform: all 500ms ease;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(106, 206, 97, 0);
+  color: #d5c8c8;
+}
+
+.row .col .card .lista {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  border-width: 2px;
+  border-top: solid 2px #f8f2f2;
+}
+
+.footer div h4 {
+  padding: 0.5em;
+  color: white;
+}
+
+.footer div ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer div ul li {
+  display: inline-block;
+  padding: .3em;
+}
+
+.footer div ul li a img:hover {
+  opacity: .8;
+}
+
+.footer div a {
+  font-size: 25px;
+  list-style: none;
+  text-decoration: none;
+  color: #fffbfb;
+}
+
+.container {
+  text-align: center;
+  padding-top: 5rem;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  gap: 1.2em;
+  -ms-grid-columns: no-repeat 5, 1fr;
+      grid-template-columns: no-repeat 5, 1fr;
+}
+
+.container .content {
+  opacity: 0.9;
+  grid-column: span 3;
+}
+
+.container .content .card {
+  margin-bottom: 2em;
+  overflow: hidden;
+  -webkit-transform: all 500ms ease;
+          transform: all 500ms ease;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(206, 97, 97, 0);
+  color: black;
+}
+
+.container .content .card .card-body {
+  background-color: rgba(106, 98, 98, 0.524);
+}
+
+.container .content .card .card-body .card-title {
+  font-size: 30px;
+}
+
+.container .content .card .card-body .card-text {
+  font-size: 25px;
+}
+
+.container .content .card .card-body .article {
+  padding: 20px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.container .sidebar {
+  grid-column: span 2;
+  color: #080808;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .sidebar .content .card .card-body div img {
+  margin: 1px;
+  width: 100%;
+}
+
+.container .sidebar .content .card .card-body div p {
+  margin: 1px;
+}
+
+.container .row {
+  opacity: 0.91;
+}
+
+.container .row .col {
+  padding: 15px;
+  -webkit-transition: all 1.2s ease;
+  transition: all 1.2s ease;
+}
+
+.container .row .col:hover {
+  background-color: #f3817d;
+}
+
+.container .row .col .card {
+  border: #da2c26 solid 3px;
+}
+
+.container .row .col .card img {
+  max-width: 100%;
+  width: 50%;
+}
+
+.container .row .col .card .lista {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+.color1 {
+  background-color: #0e0d0d;
+}
+
+.color2 {
+  background-color: #da2c2c;
+}
+
+.color3 {
+  background-color: #dd5a5a;
+}
+
+.color4 {
+  background-color: #a09d9d;
+}
+/*# sourceMappingURL=style.css.map */

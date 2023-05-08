@@ -1,0 +1,79 @@
+$colornegro: #0e0d0d;
+$colorrojo: rgb(218, 44, 44);
+$colorrojoclaro: rgb(221, 90, 90);
+
+$breakpoints: (
+    sm : 540px,
+    md : 768px,
+    lg : 1024px,
+    xl: 1280px,
+);
+
+@mixin media-up ($breakpoint) {
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
+
+a{
+    background-color: rgb(113, 120, 114); 
+}
+
+@include media-up (sm) {
+    @extend a ;
+}
+@include media-up (md) {
+    @extend a ;
+}
+@include media-up (lg) {
+    @extend a ;
+}
+@include media-up (xl) {
+    @extend a ;
+}
+
+
+.header{
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 2;
+
+    .navbar{
+        .container-fluid{
+            .navbar-brand{
+                transition: all 1.2s ease;
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+            .navbar-toggler{
+                color: $colorrojo;
+            }
+            .collapse{
+                ul{
+                    li{
+                        a{
+                            color: rgb(245, 241, 241);
+                            text-decoration: none;
+                            justify-content: space-between;
+                            border-radius: 10px;
+                            transition: all 1s ease;
+                            &:hover {
+                                background-color: $colorrojoclaro;
+                                border-radius: 10px;
+                            } 
+                            &:active{
+                                background-color: $colorrojo;
+                            } 
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
+
+

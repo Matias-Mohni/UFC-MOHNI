@@ -1,0 +1,16 @@
+@import "header";
+@import "row";
+@import "footer";
+@import "card";
+@import "variables";
+
+
+@if $paletadecolores == "si"{
+    @for $i from 1 through 4 {
+       .color#{$i} {
+           background-color: map-get($mapadecolores, $i );
+       }
+    }
+}
+
+

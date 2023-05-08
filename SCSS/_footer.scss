@@ -1,0 +1,32 @@
+.footer{
+    text-align: center;
+    border-width: 2px;
+    border-top: solid 2px rgb(248, 242, 242);
+    div{
+        h4{
+            padding: 0.5em;
+            color: white;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            li{
+                display: inline-block;
+                padding: .3em;
+                a{
+                    img{
+                        &:hover{
+                            opacity: .8;   
+                        }
+                    }
+                }
+            }
+        }
+        a{
+            font-size: 25px;
+            list-style: none;
+            text-decoration: none;
+            color: rgb(255, 251, 251);
+        }
+    }
+}

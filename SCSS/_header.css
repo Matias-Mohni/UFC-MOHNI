@@ -1,0 +1,29 @@
+.header {
+  background-color: #181616;
+}
+
+.header .navbar .container-fluid .navbar-brand {
+  transition: all 1.2s ease;
+}
+
+.header .navbar .container-fluid .navbar-brand:hover {
+  opacity: 0.5;
+}
+
+.header .navbar .container-fluid .navbar-toggler {
+  color: #da2c26;
+}
+
+.header .navbar .container-fluid .collapse ul li a {
+  border-radius: 10px;
+  transition: all 1s ease;
+}
+
+.header .navbar .container-fluid .collapse ul li a:hover {
+  background-color: #da2c26;
+  border-radius: 10px;
+}
+
+.header .navbar .container-fluid .collapse ul li a:active {
+  background-color: #ff0800;
+}

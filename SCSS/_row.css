@@ -1,0 +1,17 @@
+.row {
+  background-color: #da2c26;
+  opacity: 0.91;
+}
+
+.row .col {
+  padding: 15px;
+  transition: all 1.2s ease;
+}
+
+.row .col:hover {
+  background-color: #f3817d;
+}
+
+.row .col .card {
+  border: red solid 3px;
+}

@@ -1,0 +1,31 @@
+$colorrojo: rgb(218, 44, 44);
+$colorgris: rgb(160, 157, 157);
+.row{
+    opacity: 0.91;
+
+    .col {
+        padding: 15px;
+        transition: all 1.2s ease;
+        
+        &:hover {
+            background-color: $colorgris;
+        }      
+        .card {
+            margin-bottom: 2em;
+            overflow: hidden;
+            transform: all 500ms ease;
+            border-radius: 5px;
+            box-shadow: none;
+            align-items: center;
+            background-color: rgba(206, 97, 97, 0);
+            color: rgb(213, 200, 200); 
+            
+            .lista {
+                text-decoration: none;
+                list-style: none;
+                text-align: center;    
+            }
+     
+        }   
+    }       
+}
