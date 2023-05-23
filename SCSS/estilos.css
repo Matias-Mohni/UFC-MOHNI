@@ -1,5 +1,5 @@
 a {
-  background-color: #717872;
+  background-color: #787471;
 }
 
 .header {
@@ -82,7 +82,7 @@ a {
 .footer {
   text-align: center;
   border-width: 2px;
-  border-top: solid 2px #f8f2f2;
+  border-top: solid 2px #f4f8f2;
 }
 
 .footer div h4 {
